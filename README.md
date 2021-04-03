@@ -1,2 +1,2 @@
 # art-classification
-cnn- classifier model for art forms/movements
+CNN classifier model for art forms/movements
