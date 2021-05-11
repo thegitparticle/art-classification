@@ -1,3 +1,4 @@
 fastai.vision
 fastai.metrics
 fastbook
+pillow<7
