@@ -16,7 +16,7 @@ def predict_img(img):
         return learner_inf.predict(pil_img)
 
 
-learner_inf = load_learner("./export.pkl")
+learner_inf = load_learner("./src/export.pkl")
 
 pic = st.file_uploader("Upload Files")
 
