@@ -42,4 +42,5 @@ if st.button("Classify"):
     else:
         pred = str(pred)
     "Prediction: ", pred
-    "Probability: ", str(round(probs[pred_idx].item(), 5))
+    percent_prob = str(round(probs[pred_idx].item(), 5)) * 100
+    "Probability: ", percent_prob + "%"
