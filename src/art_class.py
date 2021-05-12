@@ -18,7 +18,7 @@ def predict_img(img):
 
 learner_inf = load_learner("./src/export.pkl")
 
-pic = st.file_uploader("Upload Files")
+pic = st.file_uploader("Upload image of an Art piece")
 
 probs = []
 pred_idx = 1
@@ -40,6 +40,6 @@ if st.button("Classify"):
     if str(pred) in ("no_mask", "beard"):
         pred = "No mask"
     else:
-        pred = "Mask"
+        pred = str(pred)
     "Prediction: ", pred
     "Probability: ", str(round(probs[pred_idx].item(), 5))
