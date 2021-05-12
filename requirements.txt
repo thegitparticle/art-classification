@@ -1,4 +1,5 @@
-fastai.vision
-fastai.metrics
+fastai
+#fastai.vision
+#fastai.metrics
 fastbook
 pillow<7
